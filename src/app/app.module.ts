@@ -11,6 +11,7 @@ import { AppRoutingModule } from "./app.routes";
 //Services
 import { HeroesService } from "./services/heroes.service";
 import { HeroDetailComponent } from './components/hero-detail/hero-detail.component';
+import { SearchHeroesComponent } from './components/search-heroes/search-heroes.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HeroDetailComponent } from './components/hero-detail/hero-detail.compon
     HomeComponent,
     HeroesComponent,
     AboutComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    SearchHeroesComponent
   ],
   imports: [
     BrowserModule,
